@@ -9655,6 +9655,15 @@ h3 {
     border-color: #dee2e6;
   }
 }
+@impot "../../public/fonts/Poppins-Regular.ttf";
+@font-face {
+  font-family: Poppins-regular;
+  src: url("../../public/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../../public/fonts/Poppins-Bold.ttf");
+}
 #logo {
   width: 9%;
   margin-top: 5rem;
@@ -9667,12 +9676,40 @@ h3 {
 
 #boutons {
   display: hidden;
-  position: fixed;
+  position: absolute;
   right: 5rem;
 }
 
 #connexion {
   font-size: 0.9rem;
+}
+
+.divShopAt {
+  margin-top: 13rem;
+}
+
+#shopAt {
+  background: #f3f3f3;
+}
+#shopAt h3 {
+  font-family: Poppins-regular;
+  color: #bd584e;
+}
+#shopAt h1 {
+  font-family: Poppins-Bold;
+}
+#shopAt p {
+  font-size: 1.2rem;
+  color: rgba(108, 117, 125, 0.55) !important;
+}
+#shopAt button {
+  background-color: #bd584e;
+  font-size: 0.8rem;
+}
+
+#imgShopAt {
+  width: 68%;
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,13 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"
+@impot "../../public/fonts/Poppins-Regular.ttf"
+@font-face 
+    font-family: Poppins-regular
+    src: url("../../public/fonts/Poppins-Regular.ttf")
+@font-face 
+    font-family: Poppins-Bold   
+    src: url("../../public/fonts/Poppins-Bold.ttf")
+
+
 
 #logo
     width: 9%
@@ -10,7 +19,27 @@
 
 #boutons
     display: hidden
-    position: fixed
+    position: absolute
     right: 5rem
 #connexion
    font-size: 0.90rem
+.divShopAt
+    margin-top: 13rem
+
+#shopAt
+    background: rgb(243, 243, 243)
+    h3
+       font-family: Poppins-regular
+       color: rgb(189, 88, 78)
+    h1 
+        font-family: Poppins-Bold
+    p 
+        font-size: 1.2rem
+        color: rgba(108, 117, 125, 0.55) !important
+    button
+        background-color: rgb(189, 88, 78)
+        font-size: 0.8rem
+    
+#imgShopAt
+    width: 68%
+    display: block
