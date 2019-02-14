@@ -9771,4 +9771,27 @@ h3 {
   color: rgba(216, 211, 211, 0.82);
 }
 
+#discover .parallax {
+  background-image: url("../../public/images/cta-bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+#discover .contenu {
+  color: white;
+  position: absolute;
+  right: 34rem;
+  font-family: Poppins-Medium;
+}
+#discover .contenu button {
+  background-color: #bd584e;
+  color: white;
+  border-radius: 10rem;
+  font-size: 0.8rem;
+  font-family: Poppins-Medium;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
