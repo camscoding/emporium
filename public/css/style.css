@@ -9739,4 +9739,36 @@ h3 {
   height: 80%;
 }
 
+#produits {
+  font-family: Poppins-Bold;
+}
+#produits img {
+  width: 100%;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+#produits a {
+  text-decoration: none;
+  color: black !important;
+}
+#produits p {
+  color: #bd584e;
+}
+#produits .bgSale {
+  position: static;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  font-size: 0.8rem;
+  background-color: #bd584e;
+  color: white !important;
+}
+#produits .bgSale p {
+  padding-top: 0.8rem;
+}
+#produits span {
+  text-decoration: line-through;
+  color: rgba(216, 211, 211, 0.82);
+}
+
 /*# sourceMappingURL=style.css.map */
