@@ -9771,6 +9771,9 @@ h3 {
   color: rgba(216, 211, 211, 0.82);
 }
 
+#discover {
+  margin-top: 9rem;
+}
 #discover .parallax {
   background-image: url("../../public/images/cta-bg.jpg");
   background-attachment: fixed;
@@ -9792,6 +9795,52 @@ h3 {
   font-size: 0.8rem;
   font-family: Poppins-Medium;
   font-weight: bold;
+}
+
+#carousel {
+  font-family: Poppins-Bold;
+  margin-top: 5rem;
+}
+#carousel .bgSale2 {
+  position: static;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  font-size: 0.8rem;
+  background-color: #bd584e;
+  color: white !important;
+}
+#carousel .bgSale2 p {
+  padding-top: 0.8rem;
+}
+
+#cards .bgB {
+  background-color: #f3f3f3;
+}
+#cards .bgR {
+  background-color: #bd584e;
+}
+#cards .card {
+  border: none;
+}
+#cards .card-body {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+#cards .pGris {
+  color: #c6c6c6;
+}
+#cards i {
+  font-size: 2.5rem;
+}
+#cards .card-title {
+  font-family: Poppins-Bold;
+}
+#cards .btn {
+  font-family: Poppins-Regular;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 0.8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
