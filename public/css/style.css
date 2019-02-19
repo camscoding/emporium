@@ -9780,12 +9780,12 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300px;
+  min-height: 25rem;
 }
 #discover .contenu {
   color: white;
   position: absolute;
-  right: 34rem;
+  width: 100%;
   font-family: Poppins-Medium;
 }
 #discover .contenu button {
@@ -9841,6 +9841,67 @@ h3 {
   font-weight: bold;
   font-size: 0.8rem;
   padding: 0.8rem;
+  margin-bottom: 5rem;
+}
+
+#footer {
+  background-color: #313131;
+}
+#footer p {
+  color: #c6c6c6;
+  font-size: 0.84rem;
+  font-family: Poppins-Regular;
+}
+#footer .titre {
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+#footer ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}
+#footer ul a {
+  text-decoration: none;
+  color: #c6c6c6 !important;
+}
+#footer ul hr {
+  background-color: #4c4c4c;
+}
+#footer ul li {
+  color: #c6c6c6 !important;
+}
+#footer ul li i {
+  margin-right: 0.7rem;
+}
+#footer .bordure {
+  border-left: solid 1px #4c4c4c;
+  border-right: solid 1px #4c4c4c;
+}
+#footer .col-4 {
+  margin-top: 4rem;
+}
+#footer #tag a {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  font-family: Poppins-Regular;
+  text-decoration: white;
+  color: #c6c6c6;
+  border: solid 1px #4c4c4c;
+  padding: 0.5rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+#copyright {
+  background-color: #292828;
+  color: #828080;
+  font-size: 0.8rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
